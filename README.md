@@ -1,5 +1,3 @@
-# Flower_Cifar10
-***
 ## Flower Example (Advanced_Tensorflow)
 > link: https://github.com/adap/flower/tree/main/examples/advanced_tensorflow
 
@@ -16,8 +14,3 @@
 
     * Clients의 Local Model 성능<br/>
     <img src="./image/local_model.png" width="450px" height="200px" title="local_model" alt="RubberDuck"></img><br/>
-
-
-
-
-***
