@@ -488,3 +488,45 @@
 (09-21) 14:50:41 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
 (09-21) 14:50:42 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
 (09-21) 14:50:43 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:50:51 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:50:57 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:04 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:12 INFO     [aggregator.py:520] Wall clock: 679654 s, round: 3, Planned participants: 4, Succeed participants: 4, Training loss: 6.390082648380048
+(09-21) 14:51:12 INFO     [client_manager.py:202] Wall clock time: 679654, 4 clients online, 0 clients offline
+(09-21) 14:51:12 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
+(09-21) 14:51:13 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
+(09-21) 14:51:14 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:22 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:28 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:35 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:42 INFO     [aggregator.py:520] Wall clock: 1019482 s, round: 4, Planned participants: 4, Succeed participants: 4, Training loss: 5.754138729129259
+(09-21) 14:51:42 INFO     [client_manager.py:202] Wall clock time: 1019482, 4 clients online, 0 clients offline
+(09-21) 14:51:42 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
+(09-21) 14:51:43 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
+(09-21) 14:51:44 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:51 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:51:58 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:52:05 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:52:13 INFO     [aggregator.py:520] Wall clock: 1359309 s, round: 5, Planned participants: 4, Succeed participants: 4, Training loss: 5.574586182905732
+(09-21) 14:52:13 INFO     [client_manager.py:202] Wall clock time: 1359309, 4 clients online, 0 clients offline
+(09-21) 14:52:13 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
+(09-21) 14:52:14 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
+(09-21) 14:52:15 INFO     [aggregator.py:812] Issue EVENT (model_test) to EXECUTOR (1)
+(09-21) 14:52:34 INFO     [aggragation.py:59] FL Testing in round: 5, virtual_clock: 1359308.95, top_1: 11.64 %, top_5: 52.53 %, test loss: 2191.2602, test len: 10000
+(09-21) 14:52:35 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:52:42 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:52:49 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:52:56 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:53:03 INFO     [aggregator.py:520] Wall clock: 1699136 s, round: 6, Planned participants: 4, Succeed participants: 4, Training loss: 5.327781081889745
+(09-21) 14:53:03 INFO     [client_manager.py:202] Wall clock time: 1699136, 4 clients online, 0 clients offline
+(09-21) 14:53:03 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
+(09-21) 14:53:04 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
+(09-21) 14:53:05 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:53:12 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:53:18 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:53:25 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
+(09-21) 14:53:33 INFO     [aggregator.py:520] Wall clock: 2038963 s, round: 7, Planned participants: 4, Succeed participants: 4, Training loss: 5.082613031689434
+(09-21) 14:53:33 INFO     [client_manager.py:202] Wall clock time: 2038963, 4 clients online, 0 clients offline
+(09-21) 14:53:33 INFO     [aggregator.py:532] Selected participants to run: [1, 2, 3, 4]
+(09-21) 14:53:34 INFO     [aggregator.py:812] Issue EVENT (update_model) to EXECUTOR (1)
+(09-21) 14:53:35 INFO     [aggregator.py:812] Issue EVENT (client_train) to EXECUTOR (1)
