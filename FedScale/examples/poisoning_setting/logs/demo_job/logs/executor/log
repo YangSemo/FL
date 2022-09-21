@@ -1,0 +1,27 @@
+(09-21) 13:09:24 INFO     [executor.py:57] (EXECUTOR:1) is setting up environ ...
+(09-21) 13:09:25 INFO     [executor.py:113] Data partitioner starts ...
+(09-21) 13:09:25 INFO     [divide_data.py:106] Randomly partitioning data, 50000 samples...
+(09-21) 13:09:25 INFO     [divide_data.py:106] Randomly partitioning data, 10000 samples...
+(09-21) 13:09:25 INFO     [executor.py:124] Data partitioner completes ...
+(09-21) 13:09:25 INFO     [channel_context.py:21] %%%%%%%%%% Opening grpc connection to 127.0.0.1 %%%%%%%%%%
+(09-21) 13:09:25 INFO     [executor.py:410] Start monitoring events ...
+(09-21) 13:09:25 WARNING  [executor.py:395] Failed to connect to aggregator <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1663733365.918898000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3187,"referenced_errors":[{"created":"@1663733365.918898000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":146,"grpc_status":14}]}"
+>. Will retry in 5 sec.
+(09-21) 13:09:30 WARNING  [executor.py:395] Failed to connect to aggregator <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1663733370.922294000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3187,"referenced_errors":[{"created":"@1663733370.922286000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":146,"grpc_status":14}]}"
+>. Will retry in 5 sec.
+(09-21) 13:09:35 WARNING  [executor.py:395] Failed to connect to aggregator <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1663733375.925709000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3187,"referenced_errors":[{"created":"@1663733375.925683000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":146,"grpc_status":14}]}"
+>. Will retry in 5 sec.
+(09-21) 13:09:40 WARNING  [executor.py:395] Failed to connect to aggregator <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1663733380.927825000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3187,"referenced_errors":[{"created":"@1663733380.927821000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":146,"grpc_status":14}]}"
+>. Will retry in 5 sec.
