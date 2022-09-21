@@ -1,1 +1,2 @@
-log/*
+/FedScale/examples/notebook/log/*
+/FedScale/examples/notebook/.ipynb_checkpoints/*

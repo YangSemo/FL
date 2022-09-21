@@ -19,15 +19,18 @@
 > link 1: https://fedscale.ai/ <br>
 > link 2: https://github.com/SymbioticLab/FedScale <br>
 * Basic FedScale Example
- * FedScale/example/notebook 코드 사용
-  * .ipynb 파일을 .py로 변환하여 파라미터 찾아가며 수행
-  * args 활용하여 여러 파라미터 수정 가능 <br>
-  <img src="./image/config_parser.png" width="250px" height="150px" title="local_model" alt="RubberDuck"></img>
-  * server 실행 후 client 실행
-  * 실행 결과
-   * Server
-    * Selected Client의 ID와 라운드별 성능 확인 가능 <br>
-    <img src="./image/server_result.png" width="350px" height="100px" title="local_model" alt="RubberDuck"></img><br>
-   * Client
-    * 각 Client의 성능 및 성공/실패 상태 확인 <br>
-    <img src="./image/client_result.png" width="350px" height="100px" title="local_model" alt="RubberDuck"></img><br>
+  * FedScale/example/notebook 코드 사용
+    * .ipynb 파일을 .py로 변환하여 파라미터 찾아가며 수행
+    * args 활용하여 여러 파라미터 수정 가능 <br>
+      * Server: --rounds: 라운드 수
+        * Selected Client는 4개 밖에 안됨 => aggregator.py 부분 확인 필요
+      * Client: --num_participants: 클라이언트 수<br>
+      <img src="./image/config_parser.png" width="250px" height="150px" title="local_model" alt="RubberDuck"></img>
+    * server 실행 후 client 실행
+    * 실행 결과
+      * Server
+        * Selected Client의 ID와 라운드별 성능 확인 가능 <br>
+         <img src="./image/server_result.png" width="350px" height="100px" title="local_model" alt="RubberDuck"></img><br>
+        * Client
+          * 각 Client의 성능 및 성공/실패 상태 확인 <br>
+           <img src="./image/client_result.png" width="350px" height="100px" title="local_model" alt="RubberDuck"></img><br>
