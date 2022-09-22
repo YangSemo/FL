@@ -34,3 +34,16 @@
         * Client
           * 각 Client의 성능 및 성공/실패 상태 확인 <br>
            <img src="./image/client_result.png" width="350px" height="100px" title="local_model" alt="RubberDuck"></img><br>
+
+## Flower vs FedScale
+> * config parser(파라미터)를 설정하여 간편하게 연합학습 시뮬레이션 수행 가능
+> * 오픈 데이터셋 쉽게 활용 가능
+> * Flower에 비해 ClientManager 기능 다양하게 지원(Client Selection 부분도 지원)
+>   * Oort sampler:  Oort prioritizes the use of those clients who have both data that offers the greatest utility
+        in improving model accuracy and the capability to run training quickly.<br>
+        [Ref]: https://www.usenix.org/conference/osdi21/presentation/lai
+> * 단점 
+>   * Flower 대비 code 사용 Documentation 부족
+>   * 서비스(device에 client 적용)나 플랫폼에 적용하려 했을 때 확장성이 다소 부족하다고 느껴짐
+> * 여러 example을 수행하였지만, notebook example만 수행 가능하였음
+> * 다른 example도 수행해보고 디버깅 작업을 하여 어떻게 돌아가고 있는지 구조 파악이 필요
