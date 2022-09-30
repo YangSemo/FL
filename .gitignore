@@ -1,2 +1,9 @@
 /FedScale/examples/notebook/log/*
 /FedScale/examples/notebook/.ipynb_checkpoints/*
+/fedmlops/FL_Client/.DS_Store
+/fedmlops/FL_Server/.DS_Store
+/fedmlops/FL_Client/local_model/*
+/fedmlops/FL_Server/gl_model/*
+/fedmlops/pytorch/*
+/.idea/*
+/events*

@@ -42,6 +42,13 @@
 >   * Oort sampler:  Oort prioritizes the use of those clients who have both data that offers the greatest utility
         in improving model accuracy and the capability to run training quickly.<br>
         [Ref]: https://www.usenix.org/conference/osdi21/presentation/lai
+>   * server(Aggregation)에서 --sample_mode oort 설정하면 oort 수행 (기본 sample_mode==random)
+>     * client:4, round: 5, sample_mode: random
+>       * Wall clock: 1359309 s, round: 5, Planned participants: 4, Succeed participants: 4, Training loss: 5.574586182905732
+>     * client:4, round: 5, sample_mode: oort
+>       * Wall clock: 1359305 s, round: 5, Planned participants: 4, Succeed participants: 4, Training loss: 4.261431848639704
+>     * 아직 client와 round 수가 적지만 random보다 oort의 loss가 더 낮음
+>     * 좀 더 실험과 연구가 필요함(앞서 진행한 것은 너무 간단한 테스트)
 > * 단점 
 >   * Flower 대비 code 사용 Documentation 부족
 >   * 서비스(device에 client 적용)나 플랫폼에 적용하려 했을 때 확장성이 다소 부족하다고 느껴짐
